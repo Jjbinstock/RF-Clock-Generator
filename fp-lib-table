@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ADF4351BCPZ_RL7")(type "KiCad")(uri "${KIPRJMOD}/Components/ADF4351BCPZ_RL7/KiCADv6/ADF4351BCPZ_RL7.pretty")(options "")(descr ""))
+  (lib (name "TSX_3225_24_0000MF20G_AC3")(type "KiCad")(uri "${KIPRJMOD}/Components/TSX_3225_24_0000MF20G_AC3/KiCADv6/TSX_3225_24_0000MF20G_AC3.pretty")(options "")(descr ""))
+  (lib (name "LQW15AN18NJ00D")(type "KiCad")(uri "${KIPRJMOD}/Components/LQW15AN18NJ00D")(options "")(descr ""))
+)
