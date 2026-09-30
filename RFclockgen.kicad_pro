@@ -625,6 +625,18 @@
     [
       "e1444a2d-a0c4-493c-a136-c624dc084e46",
       "Root"
+    ],
+    [
+      "5eadf96c-4633-4d78-8a47-09b3347a9db0",
+      "ClockGeneratorIC"
+    ],
+    [
+      "e0719063-0868-4156-844d-b05e9bfe86b9",
+      "CrystalOscillator"
+    ],
+    [
+      "cc1a3e15-f832-4c98-b857-cba4ae64efa4",
+      "USB_C"
     ]
   ],
   "text_variables": {}
