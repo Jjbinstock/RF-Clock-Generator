@@ -3,4 +3,5 @@
   (lib (name "ADF4351BCPZ-RL7")(type "KiCad")(uri "${KIPRJMOD}/Components/ADF4351BCPZ_RL7/KiCADv6/2026-09-23_19-29-45.kicad_sym")(options "")(descr ""))
   (lib (name "TSX_3225_24_0000MF20G_AC3")(type "KiCad")(uri "${KIPRJMOD}/Components/TSX_3225_24_0000MF20G_AC3/KiCADv6/2026-09-23_20-38-47.kicad_sym")(options "")(descr ""))
   (lib (name "LQW15AN18NJ00D")(type "KiCad")(uri "${KIPRJMOD}/Components/LQW15AN18NJ00D/LQW15AN18NJ00D.kicad_sym")(options "")(descr ""))
+  (lib (name "CP2102N-A02-GQFN28")(type "KiCad")(uri "${KIPRJMOD}/Components/CP2102N_A02_GQFN28/KiCADv6/2026-10-07_18-59-12.kicad_sym")(options "")(descr ""))
 )
