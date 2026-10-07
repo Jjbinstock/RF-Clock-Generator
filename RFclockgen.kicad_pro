@@ -641,6 +641,14 @@
     [
       "16aeef88-bef4-4dfc-b1a8-5c601cc612ea",
       "Decoupling capacitors"
+    ],
+    [
+      "a8385313-8f25-47fe-9062-948b5b923a5b",
+      "UART"
+    ],
+    [
+      "07136b3a-3410-4a80-84ee-2d73e602eb98",
+      "AUTODOWNLOAD"
     ]
   ],
   "text_variables": {}
