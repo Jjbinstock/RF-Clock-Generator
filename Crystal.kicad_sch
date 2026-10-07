@@ -268,51 +268,30 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TSX_3225_24_0000MF20G_AC3:TSX-3225_24.0000MF20G-AC3"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "Oscillator:TG2520SMN-xx.xxxxxxMhz-xxxxNM"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "XTAL"
-				(at 40.64 12.7 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "TSX-3225 24.0000MF20G-AC3"
-				(at 40.64 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "TSX-3225 24.0000MF20G-AC3_EPS"
-				(at 0 0 0)
+			(property "Reference" "Y"
+				(at -5.08 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(hide yes)
+					(justify left)
 				)
 			)
-			(property "Datasheet" "TSX-3225 24.0000MF20G-AC3"
-				(at 0 0 0)
+			(property "Value" "TG2520SMN-xx.xxxxxxMhz-xxxxNM"
+				(at 1.27 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(hide yes)
+					(justify left)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_TG2520SMN-xxx-xxxxxx-4Pin_2.5x2.0mm"
+				(at 11.43 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -320,15 +299,16 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?dl=app_TG2520SMN&lang=en"
+				(at -2.54 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "ki_keywords" "TSX-3225 24.0000MF20G-AC3"
+			(property "Description" "Crystal Oscillator Low Profile / High Stability TCXO"
 				(at 0 0 0)
 				(effects
 					(font
@@ -337,7 +317,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TSX-3225 24.0000MF20G-AC3_EPS TSX-3225 24.0000MF20G-AC3_EPS-M TSX-3225 24.0000MF20G-AC3_EPS-L"
+			(property "ki_keywords" "Crystal Clock Oscillator"
 				(at 0 0 0)
 				(effects
 					(font
@@ -346,203 +326,47 @@
 					(hide yes)
 				)
 			)
-			(symbol "TSX-3225_24.0000MF20G-AC3_0_1"
+			(property "ki_fp_filters" "Oscillator*SMD*SeikoEpson*TG2520*2.5x2.0mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TG2520SMN-xx.xxxxxxMhz-xxxxNM_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
-						(xy 7.62 7.62) (xy 7.62 -10.16)
+						(xy -1.905 -0.635) (xy -1.27 -0.635) (xy -1.27 0.635) (xy -0.635 0.635) (xy -0.635 -0.635) (xy 0 -0.635)
+						(xy 0 0.635) (xy 0.635 0.635) (xy 0.635 -0.635)
 					)
 					(stroke
-						(width 0.127)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 73.66 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 30.48 2.54) (xy 7.62 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 30.48 0) (xy 30.48 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 35.56 0) (xy 30.48 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 35.56 -5.08) (xy 35.56 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 38.1 5.08) (xy 38.1 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 38.1 5.08) (xy 43.18 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 38.1 -7.62) (xy 43.18 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 43.18 -7.62) (xy 43.18 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 45.72 2.54) (xy 45.72 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 50.8 -2.54) (xy 45.72 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 50.8 -5.08) (xy 50.8 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 73.66 7.62) (xy 7.62 7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 73.66 -5.08) (xy 50.8 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 73.66 -10.16) (xy 73.66 7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 2.54 0)
-					(length 7.62)
-					(name "1"
+			)
+			(symbol "TG2520SMN-xx.xxxxxxMhz-xxxxNM_1_1"
+				(pin no_connect line
+					(at -5.08 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -557,28 +381,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 81.28 2.54 180)
-					(length 7.62)
-					(name "4"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -593,10 +399,28 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 81.28 -5.08 180)
-					(length 7.62)
-					(name "3"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -738,6 +562,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 102.87) (xy 144.78 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "001ca7a7-e4b0-48cf-bb6b-590da84f21b9")
+	)
+	(wire
+		(pts
 			(xy 198.12 97.79) (xy 205.74 97.79)
 		)
 		(stroke
@@ -748,7 +582,27 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 90.17) (xy 100.33 90.17)
+			(xy 152.4 92.71) (xy 167.64 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ed15e4-72e2-4de8-b37e-88be53716943")
+	)
+	(wire
+		(pts
+			(xy 116.84 90.17) (xy 116.84 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17fdf33b-2ae4-4bb7-bfd8-e46d8accb543")
+	)
+	(wire
+		(pts
+			(xy 93.98 90.17) (xy 116.84 90.17)
 		)
 		(stroke
 			(width 0)
@@ -768,13 +622,63 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 97.79) (xy 190.5 97.79)
+			(xy 144.78 102.87) (xy 144.78 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d47ec465-77f8-41cd-8377-bf9e9c9afb41")
+		(uuid "65c0fde9-6703-4fcc-bfaa-346ca78520b7")
+	)
+	(wire
+		(pts
+			(xy 167.64 97.79) (xy 190.5 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6950ef51-7b79-4654-a27f-3ee6b0460689")
+	)
+	(wire
+		(pts
+			(xy 100.33 97.79) (xy 132.08 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e0996ad-2e6d-4062-ba06-e943a88329c2")
+	)
+	(wire
+		(pts
+			(xy 132.08 97.79) (xy 132.08 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "930fa9b9-a427-4be3-bce8-fad4e8b84bca")
+	)
+	(wire
+		(pts
+			(xy 116.84 85.09) (xy 144.78 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c05eed65-a11c-4a85-9360-8011f15646c0")
+	)
+	(wire
+		(pts
+			(xy 167.64 92.71) (xy 167.64 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2fbf42b-1f07-4b1f-88ff-0e0a771b5e6c")
 	)
 	(global_label "3.3V"
 		(shape input)
@@ -821,53 +725,35 @@
 		)
 	)
 	(symbol
-		(lib_id "TSX_3225_24_0000MF20G_AC3:TSX-3225_24.0000MF20G-AC3")
-		(at 100.33 92.71 0)
+		(lib_id "Oscillator:TG2520SMN-xx.xxxxxxMhz-xxxxNM")
+		(at 144.78 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0b4b5480-0b47-4e1e-a9eb-d3c27ee937e3")
-		(property "Reference" "XTAL2"
-			(at 140.97 80.01 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TSX-3225 24.0000MF20G-AC3"
-			(at 140.97 82.55 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "TSX-3225 24.0000MF20G-AC3_EPS"
-			(at 100.33 92.71 0)
+		(uuid "09a165c2-6b14-42b4-8514-cfb342f0f78c")
+		(property "Reference" "Y1"
+			(at 138.43 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Datasheet" "TSX-3225 24.0000MF20G-AC3"
-			(at 100.33 92.71 0)
+		(property "Value" "TG2520SMN-xx.xxxxxxMhz-xxxxNM"
+			(at 138.43 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Description" ""
-			(at 100.33 92.71 0)
+		(property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_TG2520SMN-xxx-xxxxxx-4Pin_2.5x2.0mm"
+			(at 156.21 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -875,88 +761,40 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "b3d1ad69-db21-4c3e-a056-c17ded345c57")
+		(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?dl=app_TG2520SMN&lang=en"
+			(at 142.24 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Crystal Oscillator Low Profile / High Stability TCXO"
+			(at 144.78 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "4"
-			(uuid "c2d00454-2415-4ee0-aa48-a27540e39aca")
+			(uuid "18c8c548-6154-43e0-aece-8fb8a00a00a6")
 		)
 		(pin "1"
-			(uuid "82a9c3ad-3ca8-47f5-8145-55cac08e515e")
+			(uuid "0813e9c8-319f-414a-8cb3-f6f4703c5262")
 		)
 		(pin "2"
-			(uuid "1330b71b-5f4d-4f6c-a3f5-86957ed5125c")
+			(uuid "1be1e2cf-32d8-4c17-bace-5cf0447cd191")
+		)
+		(pin "3"
+			(uuid "2ff4cb8b-806a-4537-adab-ece61cbf5582")
 		)
 		(instances
-			(project "RFclockgen"
+			(project ""
 				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46/e0719063-0868-4156-844d-b05e9bfe86b9"
-					(reference "XTAL2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 181.61 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "501f395e-1457-40e7-b4ea-33b778a092aa")
-		(property "Reference" "#PWR07"
-			(at 181.61 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 181.61 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00c4d390-596d-464e-a307-a2840a788cc4")
-		)
-		(instances
-			(project "RFclockgen"
-				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46/e0719063-0868-4156-844d-b05e9bfe86b9"
-					(reference "#PWR07")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
