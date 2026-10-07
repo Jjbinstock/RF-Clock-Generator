@@ -637,6 +637,10 @@
     [
       "cc1a3e15-f832-4c98-b857-cba4ae64efa4",
       "USB_C"
+    ],
+    [
+      "16aeef88-bef4-4dfc-b1a8-5c601cc612ea",
+      "Decoupling capacitors"
     ]
   ],
   "text_variables": {}
