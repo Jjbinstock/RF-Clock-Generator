@@ -1718,7 +1718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05b0f774-ccd2-4461-a8a9-f6dc9bf7a651")
-		(property "Reference" "R16"
+		(property "Reference" "R22"
 			(at 142.24 52.07 90)
 			(effects
 				(font
@@ -1770,7 +1770,7 @@
 		(instances
 			(project "RFclockgen"
 				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46/07136b3a-3410-4a80-84ee-2d73e602eb98"
-					(reference "R16")
+					(reference "R22")
 					(unit 1)
 				)
 			)
