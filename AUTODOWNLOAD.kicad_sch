@@ -928,6 +928,291 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TL1105AF160Q:TL1105AF160Q"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TL1105AF160Q"
+				(at -5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TL1105AF160Q:SW_TL1105AF160Q"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "TL1105DF160Q"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "13 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "E-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TL1105AF160Q_0_0"
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.048 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.5875) (xy 0 1.5875)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 0)
+					(radius 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.5875) (xy 0 3.4925)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.5875) (xy 2.54 1.5875)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 3.048 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -1162,10 +1447,34 @@
 		(uuid "1924118d-111c-445e-9919-c23a9c2096a7")
 	)
 	(junction
+		(at 31.75 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6846e09a-c5ed-41dd-b01e-f7814a9db63d")
+	)
+	(junction
+		(at 97.79 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a9fa0a8-7a56-4a33-a54d-7e2ac7d7a7fc")
+	)
+	(junction
+		(at 127 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "935465ef-7bb7-4488-abe1-fdaa8f0ad073")
+	)
+	(junction
 		(at 101.6 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7608bbc-1bfc-4f18-88d8-3f7a581ea8d5")
+	)
+	(junction
+		(at 60.96 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b87cc819-7c2a-4345-bb06-0c49ef703e3e")
 	)
 	(junction
 		(at 113.03 134.62)
@@ -1180,8 +1489,74 @@
 		(uuid "f735c32b-c3d4-41bf-acb1-3c0b68bcb131")
 	)
 	(no_connect
+		(at 119.38 170.18)
+		(uuid "4ddc8335-213d-45f0-9b54-76f2b2d8d8cb")
+	)
+	(no_connect
+		(at 104.14 175.26)
+		(uuid "4fbbafe6-1d6e-49f9-a180-1736fedebb35")
+	)
+	(no_connect
 		(at 151.13 134.62)
 		(uuid "7e7732c1-8640-4b7a-a3a7-98bbba8cf3d0")
+	)
+	(no_connect
+		(at 53.34 168.91)
+		(uuid "9afd7ee7-0b3f-4065-b852-3ad104a1d024")
+	)
+	(no_connect
+		(at 38.1 173.99)
+		(uuid "dccbfb7b-a333-435e-9b5c-8185a4ec2b56")
+	)
+	(wire
+		(pts
+			(xy 49.53 185.42) (xy 60.96 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04d9af72-1df2-4cd0-8593-8e14364020ea")
+	)
+	(wire
+		(pts
+			(xy 104.14 170.18) (xy 97.79 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1913a91d-7df4-454c-9889-2e8dc8db122d")
+	)
+	(wire
+		(pts
+			(xy 31.75 185.42) (xy 41.91 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e59ec3a-493e-45b7-99a2-b4b8c62de647")
+	)
+	(wire
+		(pts
+			(xy 97.79 186.69) (xy 97.79 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e93f0a7-35f4-48fa-85a1-53b4f93bbeba")
+	)
+	(wire
+		(pts
+			(xy 127 186.69) (xy 127 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f7cbf2-5f3a-4cdd-9696-03a744a5a09b")
 	)
 	(wire
 		(pts
@@ -1225,6 +1600,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 173.99) (xy 73.66 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ad259d-4d8d-44e1-861a-37879639707f")
+	)
+	(wire
+		(pts
 			(xy 105.41 134.62) (xy 113.03 134.62)
 		)
 		(stroke
@@ -1235,6 +1620,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 186.69) (xy 107.95 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5293407e-a73e-4fe1-8392-94089f152f9e")
+	)
+	(wire
+		(pts
 			(xy 85.09 83.82) (xy 109.22 83.82)
 		)
 		(stroke
@@ -1242,6 +1637,16 @@
 			(type default)
 		)
 		(uuid "5dcf5fdf-d484-4fa4-a75a-4df0d1237caf")
+	)
+	(wire
+		(pts
+			(xy 31.75 185.42) (xy 31.75 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60257498-792e-48f0-85fe-6038f292c09e")
 	)
 	(wire
 		(pts
@@ -1262,6 +1667,16 @@
 			(type default)
 		)
 		(uuid "6946f135-5fc0-4a11-b0c4-d7d57f5c1522")
+	)
+	(wire
+		(pts
+			(xy 127 175.26) (xy 139.7 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a54e2b8-796c-455c-a729-04d1d4d0063d")
 	)
 	(wire
 		(pts
@@ -1315,6 +1730,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 168.91) (xy 31.75 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e203f6-15c0-4ff2-9fda-1328c3ad6d3d")
+	)
+	(wire
+		(pts
 			(xy 96.52 78.74) (xy 101.6 78.74)
 		)
 		(stroke
@@ -1355,6 +1780,36 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 173.99) (xy 53.34 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "963f7ebd-bce2-4de5-8fa7-247f42d1ac64")
+	)
+	(wire
+		(pts
+			(xy 115.57 186.69) (xy 127 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97890cf7-3a9d-43d1-b7fc-04b9116b77db")
+	)
+	(wire
+		(pts
+			(xy 60.96 185.42) (xy 60.96 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a069625b-ecaf-4780-9c40-cce5f08fad77")
+	)
+	(wire
+		(pts
 			(xy 177.8 81.28) (xy 177.8 102.87)
 		)
 		(stroke
@@ -1385,6 +1840,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 170.18) (xy 97.79 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc782b7-402d-48bc-8dfa-c79f80cf39a0")
+	)
+	(wire
+		(pts
 			(xy 101.6 102.87) (xy 138.43 102.87)
 		)
 		(stroke
@@ -1392,6 +1857,16 @@
 			(type default)
 		)
 		(uuid "bf5f8190-4ae4-4c12-9acc-e3a81260c2b8")
+	)
+	(wire
+		(pts
+			(xy 127 175.26) (xy 119.38 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfdb9781-fb10-47e5-912a-03b6a5a8e414")
 	)
 	(wire
 		(pts
@@ -1463,6 +1938,38 @@
 		)
 		(uuid "f4020c5d-a0cc-4ee4-83b7-b6cfa84ef940")
 	)
+	(wire
+		(pts
+			(xy 31.75 168.91) (xy 31.75 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca3de78-f82e-4a49-9c55-0d08ba911529")
+	)
+	(global_label "CHIP_PU"
+		(shape input)
+		(at 139.7 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18c48f04-e842-4066-a0cf-a73230c1dfb8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.7286 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DTR"
 		(shape input)
 		(at 96.52 78.74 180)
@@ -1498,6 +2005,28 @@
 		(uuid "389ea1d1-4fcb-46b3-8266-185582b0f652")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 213.14 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO9"
+		(shape input)
+		(at 73.66 173.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78827b83-87cb-4b8d-8d0e-fc71a289ce48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.33 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1627,10 +2156,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "7f09117f-dc0d-4fad-aeea-25aac2a55cf5")
+			(uuid "9773bdb7-eb8f-47e3-83ef-e35ffa98ed00")
 		)
 		(pin "1"
-			(uuid "0bcf33fa-8285-40dd-9b88-9faab3d96792")
+			(uuid "21ec71c1-c025-4099-8fa5-2b1be3704e91")
 		)
 		(instances
 			(project "RFclockgen"
@@ -1697,7 +2226,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "af8a5445-8f9c-42df-8796-0544094184e5")
+			(uuid "d9339db8-8a7c-4944-85a9-93de2843591c")
 		)
 		(instances
 			(project ""
@@ -1762,15 +2291,140 @@
 			)
 		)
 		(pin "2"
-			(uuid "905c0eb8-b3aa-4528-8108-fbd1fabcefb5")
+			(uuid "7c5dd60d-651b-4bfd-a425-63320f9be4d8")
 		)
 		(pin "1"
-			(uuid "22157346-9717-410d-88e9-e79d4f8b6179")
+			(uuid "ecb0b579-3171-49c1-8b79-81413aac950e")
 		)
 		(instances
 			(project "RFclockgen"
 				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46/07136b3a-3410-4a80-84ee-2d73e602eb98"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TL1105AF160Q:TL1105AF160Q")
+		(at 111.76 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "071a6b78-56ce-45a8-b8b5-f78d1c82ef00")
+		(property "Reference" "S2"
+			(at 111.76 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL1105AF160Q"
+			(at 111.76 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TL1105AF160Q:SW_TL1105AF160Q"
+			(at 111.76 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 111.76 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 111.76 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "TL1105DF160Q"
+			(at 111.76 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "13 mm"
+			(at 111.76 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 111.76 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "42061bf3-8d8d-4951-897f-e42e4f5d81bf")
+		)
+		(pin "1"
+			(uuid "9a346977-9cf7-4e83-8a67-42cc08451913")
+		)
+		(pin "2"
+			(uuid "fe7c8d91-d07b-4905-bd98-27d2fcfcb099")
+		)
+		(pin "3"
+			(uuid "55dc2c9f-23af-4718-8a54-1ae8e261615c")
+		)
+		(instances
+			(project "RFclockgen"
+				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46/07136b3a-3410-4a80-84ee-2d73e602eb98"
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -1830,15 +2484,147 @@
 			)
 		)
 		(pin "2"
-			(uuid "4b0b6067-321f-43d8-81b9-eeb07ce2386e")
+			(uuid "34372496-52c7-422d-a7ab-05a908abcc8a")
 		)
 		(pin "1"
-			(uuid "bb90e875-ae4e-4d5b-aaaf-479a7b016fc3")
+			(uuid "4251a99a-a7e0-4cee-9f4c-3006b7a30635")
 		)
 		(instances
 			(project "RFclockgen"
 				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46/07136b3a-3410-4a80-84ee-2d73e602eb98"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "405d2833-2505-40ba-acac-1c683272e815")
+		(property "Reference" "#PWR042"
+			(at 97.79 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2af91c82-f6e3-4952-bc1d-48df42ce9c34")
+		)
+		(instances
+			(project "RFclockgen"
+				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46/07136b3a-3410-4a80-84ee-2d73e602eb98"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.75 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "467005f5-e640-4b68-ab16-92228d98bb1b")
+		(property "Reference" "#PWR041"
+			(at 31.75 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0849e5a-9446-4a1e-bfbf-24a37deb6993")
+		)
+		(instances
+			(project ""
+				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46/07136b3a-3410-4a80-84ee-2d73e602eb98"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -1898,15 +2684,140 @@
 			)
 		)
 		(pin "2"
-			(uuid "e4db7a25-14db-453e-9328-0ce122e8e97a")
+			(uuid "996df990-32bf-4f6b-90df-12bbd37fb408")
 		)
 		(pin "1"
-			(uuid "2052aca3-8306-458c-9b7e-97ac80e8f997")
+			(uuid "a44cb395-5596-4455-8d67-b20ea989c5b5")
 		)
 		(instances
 			(project "RFclockgen"
 				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46/07136b3a-3410-4a80-84ee-2d73e602eb98"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TL1105AF160Q:TL1105AF160Q")
+		(at 45.72 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d478144-2f12-492f-a517-4624ebfd9c19")
+		(property "Reference" "S1"
+			(at 45.72 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL1105AF160Q"
+			(at 45.72 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TL1105AF160Q:SW_TL1105AF160Q"
+			(at 45.72 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 45.72 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 45.72 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "TL1105DF160Q"
+			(at 45.72 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "13 mm"
+			(at 45.72 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 45.72 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "571353b5-653f-4958-95b8-b017b8f65454")
+		)
+		(pin "1"
+			(uuid "49971e14-70bf-4ae0-b596-df11005320d2")
+		)
+		(pin "2"
+			(uuid "7412e373-b7fd-4b6f-8c05-150a266d65ce")
+		)
+		(pin "3"
+			(uuid "f04eda13-934f-4290-b03b-fa947fe14638")
+		)
+		(instances
+			(project ""
+				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46/07136b3a-3410-4a80-84ee-2d73e602eb98"
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -1967,7 +2878,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e7fc125-830f-42d7-9fe0-a65058a11468")
+			(uuid "d0c7a0c2-f679-452a-a91a-051ec9c6e945")
 		)
 		(instances
 			(project "RFclockgen"
@@ -2033,7 +2944,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e7db7b74-6e2f-45c0-9af2-a7ac74f75dcd")
+			(uuid "db4a96f0-ed80-48f7-b1d1-1aff3dbf16e9")
 		)
 		(instances
 			(project ""
@@ -2116,15 +3027,83 @@
 			)
 		)
 		(pin "1"
-			(uuid "29cc780e-ef7f-40cc-9123-f6db708b2e93")
+			(uuid "632041d0-05b0-40b4-911f-75f25c0fedd5")
 		)
 		(pin "2"
-			(uuid "8b3548cc-c2d6-4813-98f0-a9d0244912f9")
+			(uuid "1bd811e4-7a36-46a2-9257-2ab6292f3653")
 		)
 		(instances
 			(project ""
 				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46/07136b3a-3410-4a80-84ee-2d73e602eb98"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 111.76 186.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92f54ada-f698-4b01-8ce2-00b138bcb4ed")
+		(property "Reference" "C28"
+			(at 111.76 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 111.76 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 115.57 185.7248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 111.76 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ab0549c-2198-4a40-a58f-e69066b52fc9")
+		)
+		(pin "2"
+			(uuid "77f5186e-30a7-497c-8563-09b79852dfbb")
+		)
+		(instances
+			(project "RFclockgen"
+				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46/07136b3a-3410-4a80-84ee-2d73e602eb98"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -2185,12 +3164,80 @@
 			)
 		)
 		(pin "1"
-			(uuid "df8f5051-226b-4159-a845-c81ad9bde93b")
+			(uuid "97228791-a6fa-4200-824b-950efcbc8606")
 		)
 		(instances
 			(project ""
 				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46/07136b3a-3410-4a80-84ee-2d73e602eb98"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 45.72 185.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94883abf-28d4-4fa9-bac4-ff506c646fba")
+		(property "Reference" "C27"
+			(at 45.72 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 45.72 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 49.53 184.4548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 45.72 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72b0b02f-eecd-46f1-aa50-57eaf19ca377")
+		)
+		(pin "2"
+			(uuid "29c3de74-85d5-432d-979a-3ee6315f5a9c")
+		)
+		(instances
+			(project "RFclockgen"
+				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46/07136b3a-3410-4a80-84ee-2d73e602eb98"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -2250,10 +3297,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "db197f3f-ae67-49e3-9852-db405a2c84fb")
+			(uuid "81bc042b-4fc8-4a2e-941f-96dcb1cf7cd1")
 		)
 		(pin "2"
-			(uuid "d5c204bb-e3aa-4e03-ba9b-087fc1d6eaba")
+			(uuid "07d906b4-5abf-4de1-bd48-0e4bf8c310e3")
 		)
 		(instances
 			(project "RFclockgen"
@@ -2320,22 +3367,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "5f9c93e8-f74c-4e20-aeef-a950129686ec")
+			(uuid "98403752-95f3-49b5-9fce-0d0d2fd31434")
 		)
 		(pin "4"
-			(uuid "2f21eff0-9e5d-4b4a-81af-a97d3784b0c2")
+			(uuid "c5259378-d490-4d7b-8258-71d9e5e52c99")
 		)
 		(pin "5"
-			(uuid "28cc9ac0-a642-4c1b-ac11-77a2ef180bd2")
+			(uuid "1b87af2b-d262-426b-82ce-68d2b48ad47f")
 		)
 		(pin "2"
-			(uuid "6da51c39-9420-4f35-9de2-a5113e3313ee")
+			(uuid "53ae466d-52d3-4ae5-880d-547b57e9221e")
 		)
 		(pin "3"
-			(uuid "e44147e6-0d25-4d06-93fd-503cc0651b4c")
+			(uuid "84392dfb-a877-4926-8a2b-396daaaf8214")
 		)
 		(pin "6"
-			(uuid "45bbae0f-524c-4f4d-8d6a-d94d5232860d")
+			(uuid "8a753b71-92ac-406e-8189-447fd0d344df")
 		)
 		(instances
 			(project ""
@@ -2400,10 +3447,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "b6697a6b-f758-4361-8b1c-0efd334e30d1")
+			(uuid "cad3e8f9-f545-44fa-94f5-f91536dda78f")
 		)
 		(pin "1"
-			(uuid "8a345b88-fc61-4103-991b-89551a414fee")
+			(uuid "d189dfdf-75eb-4510-9840-da3e3ecbc732")
 		)
 		(instances
 			(project "RFclockgen"
@@ -2470,16 +3517,16 @@
 			)
 		)
 		(pin "3"
-			(uuid "f27ed1d1-9963-4cb1-94f1-f16d6af28348")
+			(uuid "89501a24-8c64-454d-8fd3-ced7b408184c")
 		)
 		(pin "4"
-			(uuid "f600cbf1-d504-4a2e-9d64-57e6a2ea3356")
+			(uuid "81bef6ec-0a4a-4d87-85b8-92e34e7d6f56")
 		)
 		(pin "1"
-			(uuid "f9109730-8c24-43c4-8993-278988b4f7cd")
+			(uuid "e81af6a7-003d-4dc1-9175-0aa01078dc53")
 		)
 		(pin "2"
-			(uuid "0e0b66a1-6434-4907-b0a3-20ac2dc1715d")
+			(uuid "b9c1553f-ec57-4c94-a42c-7cab835b7c8a")
 		)
 		(instances
 			(project ""
@@ -2546,10 +3593,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "5b088a5e-97dd-4329-80bb-80547c44803c")
+			(uuid "fcb31717-32d9-4aec-b7cf-de545667d4f0")
 		)
 		(pin "1"
-			(uuid "62e64805-65bb-4a39-bd3d-0335dfd186b4")
+			(uuid "60da71fb-a7d0-486a-adb7-1600b3f97283")
 		)
 		(instances
 			(project "RFclockgen"

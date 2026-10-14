@@ -5,4 +5,5 @@
   (lib (name "LQW15AN18NJ00D")(type "KiCad")(uri "${KIPRJMOD}/Components/LQW15AN18NJ00D/LQW15AN18NJ00D.kicad_sym")(options "")(descr ""))
   (lib (name "CP2102N-A02-GQFN28")(type "KiCad")(uri "${KIPRJMOD}/Components/CP2102N_A02_GQFN28/KiCADv6/2026-10-07_18-59-12.kicad_sym")(options "")(descr ""))
   (lib (name "BC847BDW1T1G")(type "KiCad")(uri "${KIPRJMOD}/Components/BC847BDW1T1G/KiCADv6/2026-10-07_19-32-24.kicad_sym")(options "")(descr ""))
+  (lib (name "TL1105AF160Q")(type "KiCad")(uri "${KIPRJMOD}/Components/TL1105AF160Q/TL1105AF160Q.kicad_sym")(options "")(descr ""))
 )

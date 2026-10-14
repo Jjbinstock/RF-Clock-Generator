@@ -2674,7 +2674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9d185a1-b886-4f8f-a60d-935445a8a646")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR0102"
 			(at 109.22 123.19 0)
 			(effects
 				(font
@@ -2724,7 +2724,7 @@
 		(instances
 			(project "RFclockgen"
 				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46/cc1a3e15-f832-4c98-b857-cba4ae64efa4"
-					(reference "#PWR025")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -2740,7 +2740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d47416f6-6873-407e-afd8-0c731c214519")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR0101"
 			(at 207.01 97.79 0)
 			(effects
 				(font
@@ -2790,7 +2790,7 @@
 		(instances
 			(project ""
 				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46/cc1a3e15-f832-4c98-b857-cba4ae64efa4"
-					(reference "#PWR030")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
