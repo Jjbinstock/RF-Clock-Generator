@@ -1770,7 +1770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "198a0c34-8907-4c82-827f-4c5c3321b371")
-		(property "Reference" "C12"
+		(property "Reference" "C25"
 			(at 80.01 113.0299 0)
 			(effects
 				(font
@@ -1824,7 +1824,7 @@
 		(instances
 			(project "RFclockgen"
 				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46/a8385313-8f25-47fe-9062-948b5b923a5b"
-					(reference "C12")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -1840,7 +1840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a864755-7a10-4674-bf8d-95e35b58f0d9")
-		(property "Reference" "C13"
+		(property "Reference" "C24"
 			(at 64.77 91.4399 0)
 			(effects
 				(font
@@ -1894,7 +1894,7 @@
 		(instances
 			(project "RFclockgen"
 				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46/a8385313-8f25-47fe-9062-948b5b923a5b"
-					(reference "C13")
+					(reference "C24")
 					(unit 1)
 				)
 			)

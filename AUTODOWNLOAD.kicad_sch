@@ -2206,7 +2206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c0fd117-59a4-424b-8fc6-b04b47f12122")
-		(property "Reference" "C14"
+		(property "Reference" "C26"
 			(at 185.42 95.25 90)
 			(effects
 				(font
@@ -2258,7 +2258,7 @@
 		(instances
 			(project "RFclockgen"
 				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46/07136b3a-3410-4a80-84ee-2d73e602eb98"
-					(reference "C14")
+					(reference "C26")
 					(unit 1)
 				)
 			)

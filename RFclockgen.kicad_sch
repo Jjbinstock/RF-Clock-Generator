@@ -3461,7 +3461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "461c3b7a-b72a-4bb5-bb39-49408ca6e738")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 101.6 43.1799 0)
 			(effects
 				(font
@@ -3515,7 +3515,7 @@
 		(instances
 			(project "RFclockgen"
 				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4490,7 +4490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c66140ec-b0b3-43d8-b38b-290cd1e7a153")
-		(property "Reference" "C4"
+		(property "Reference" "C2"
 			(at 137.16 144.7799 0)
 			(effects
 				(font
@@ -4544,7 +4544,7 @@
 		(instances
 			(project "RFclockgen"
 				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46"
-					(reference "C4")
+					(reference "C2")
 					(unit 1)
 				)
 			)
