@@ -1,4 +1,25 @@
-27219017742350011
+27245881516349181
+ADF4351BCPZ_RL7
+CP_32_7_ADI
+
+ADF4351BCPZ-RL7 
+0
+33
+33
+ADF4351BCPZ_RL7
+CP_32_7_ADI-L
+
+ADF4351BCPZ-RL7 
+0
+33
+33
+ADF4351BCPZ_RL7
+CP_32_7_ADI-M
+
+ADF4351BCPZ-RL7 
+0
+33
+33
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +34,27 @@ audio belton reverb
 0
 7
 7
+BC847BDW1T1G
+SOT-363-6_2P2X1P35_ONS
+
+BC847BDW1T1G 
+0
+6
+6
+BC847BDW1T1G
+SOT-363-6_2P2X1P35_ONS-L
+
+BC847BDW1T1G 
+0
+6
+6
+BC847BDW1T1G
+SOT-363-6_2P2X1P35_ONS-M
+
+BC847BDW1T1G 
+0
+6
+6
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -2813,6 +2855,27 @@ speaker CUI
 0
 2
 2
+CP2102N_A02_GQFN28
+QFN28_5X5
+
+CP2102N-A02-GQFN28 
+0
+29
+29
+CP2102N_A02_GQFN28
+QFN28_5X5-L
+
+CP2102N-A02-GQFN28 
+0
+29
+29
+CP2102N_A02_GQFN28
+QFN28_5X5-M
+
+CP2102N-A02-GQFN28 
+0
+29
+29
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -62194,6 +62257,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ESP32-C6-WROOM-1
+MOD28_ESP32-C6-WROOM-1_EXP
+
+ESP32-C6-WROOM-1-N8 
+0
+37
+37
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -71802,6 +71872,13 @@ LED_THT
 LED_VCCLite_5381H7_6.35x6.35mm
 Yellow 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimport/files/files/5381Series.pdf http://static.vcclite.com/pdf/Mounting%20Hole%20Pattern%202.pdf
 Yellow 5381 Series LED
+0
+2
+2
+LQW15AN18NJ00D
+INDC1006X60N
+
+
 0
 2
 2
@@ -100764,6 +100841,34 @@ Logo WEEE
 0
 0
 0
+TL1105AF160Q
+SW_TL1105AF160Q
+
+
+0
+4
+4
+TSX_3225_24_0000MF20G_AC3
+TSX-3225 24.0000MF20G-AC3_EPS
+
+TSX-3225 24.0000MF20G-AC3 
+0
+4
+4
+TSX_3225_24_0000MF20G_AC3
+TSX-3225 24.0000MF20G-AC3_EPS-L
+
+TSX-3225 24.0000MF20G-AC3 
+0
+4
+4
+TSX_3225_24_0000MF20G_AC3
+TSX-3225 24.0000MF20G-AC3_EPS-M
+
+TSX-3225 24.0000MF20G-AC3 
+0
+4
+4
 TerminalBlock
 TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm
 terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu

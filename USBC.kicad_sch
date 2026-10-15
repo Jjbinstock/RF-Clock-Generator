@@ -1552,6 +1552,14 @@
 		(color 0 0 0 0)
 		(uuid "c6591495-2be3-4a5d-bc68-06d2cb6e7158")
 	)
+	(no_connect
+		(at 124.46 106.68)
+		(uuid "d150a29a-5288-4928-82f4-e68ae80f071e")
+	)
+	(no_connect
+		(at 124.46 109.22)
+		(uuid "f2e2bd9c-19b9-4ca7-9710-5f3717536901")
+	)
 	(wire
 		(pts
 			(xy 175.26 113.03) (xy 167.64 113.03)
@@ -2099,7 +2107,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 160.02 106.68 0)
 			(effects
 				(font
@@ -2238,7 +2246,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 167.64 106.68 0)
 			(effects
 				(font
@@ -2508,7 +2516,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 113.03 93.98 0)
 			(effects
 				(font
@@ -2613,7 +2621,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ESD9B5.0ST5G"
+		(property "Value" "ESD9C5.0ST5G"
 			(at 178.054 110.998 90)
 			(effects
 				(font
@@ -2622,7 +2630,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 175.26 106.68 0)
 			(effects
 				(font

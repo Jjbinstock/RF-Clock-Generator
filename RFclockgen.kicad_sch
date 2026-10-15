@@ -2876,6 +2876,28 @@
 		)
 		(uuid "f8f9b477-2bb1-46f0-8272-5a227607a190")
 	)
+	(global_label "UART_RXD"
+		(shape input)
+		(at 209.55 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e7bd5a5-1220-461d-bfc2-2db21dbac8bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.909 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3.3V"
 		(shape input)
 		(at 114.3 31.75 0)
@@ -3131,6 +3153,28 @@
 		(uuid "f67bd1e8-a670-4089-a81f-68d564bd12c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 220.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_TXD"
+		(shape input)
+		(at 209.55 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fbe3fb9b-93e0-412e-8cd4-13d6421f12c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.6066 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,7 +4002,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
 			(at 149.86 62.23 0)
 			(effects
 				(font
@@ -4166,7 +4210,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder"
 			(at 148.59 144.018 90)
 			(effects
 				(font
@@ -4371,7 +4415,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 149.86 87.63 0)
 			(effects
 				(font
@@ -4578,7 +4622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder"
 			(at 134.112 127 90)
 			(effects
 				(font
