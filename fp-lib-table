@@ -3,4 +3,8 @@
   (lib (name "ADF4351BCPZ_RL7")(type "KiCad")(uri "${KIPRJMOD}/Components/ADF4351BCPZ_RL7/KiCADv6/ADF4351BCPZ_RL7.pretty")(options "")(descr ""))
   (lib (name "TSX_3225_24_0000MF20G_AC3")(type "KiCad")(uri "${KIPRJMOD}/Components/TSX_3225_24_0000MF20G_AC3/KiCADv6/TSX_3225_24_0000MF20G_AC3.pretty")(options "")(descr ""))
   (lib (name "LQW15AN18NJ00D")(type "KiCad")(uri "${KIPRJMOD}/Components/LQW15AN18NJ00D")(options "")(descr ""))
+  (lib (name "ESP32-C6-WROOM-1")(type "KiCad")(uri "${KIPRJMOD}/Components/ESP32_C6_WROOM_1_N8/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "TL1105AF160Q")(type "KiCad")(uri "${KIPRJMOD}/Components/TL1105AF160Q")(options "")(descr ""))
+  (lib (name "BC847BDW1T1G")(type "KiCad")(uri "${KIPRJMOD}/Components/BC847BDW1T1G/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "CP2102N_A02_GQFN28")(type "KiCad")(uri "${KIPRJMOD}/Components/CP2102N_A02_GQFN28/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
