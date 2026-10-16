@@ -5968,13 +5968,13 @@
 	(footprint "Package_CSP:LFCSP-32-1EP_5x5mm_P0.5mm_EP3.25x3.25mm"
 		(layer "F.Cu")
 		(uuid "7b5eaa19-d275-4480-bb68-18930fccd2bf")
-		(at 239.1 88.25)
+		(at 240.6 103.75)
 		(descr "32-Lead Frame Chip Scale Package LFCSP (5mm x 5mm); (see http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp-32/CP_32_27.pdf")
 		(tags "LFCSP 0.5")
 		(property "Reference" "U1"
 			(at 0 -3.75 0)
 			(layer "F.SilkS")
-			(uuid "0f94b8aa-9024-4517-ab14-beee67addeea")
+			(uuid "ca0eeb68-160c-4113-8e49-345fbed60e33")
 			(effects
 				(font
 					(size 1 1)
@@ -5986,7 +5986,7 @@
 			(at 0 3.75 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "12782816-5a9d-40e3-a9be-7d6fe16225a7")
+			(uuid "becb6b42-1521-42be-a75a-d52fb134b747")
 			(effects
 				(font
 					(size 1 1)
@@ -5999,7 +5999,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "07ed5948-4bc3-47db-826f-d68cc3fc7bac")
+			(uuid "0b0a844d-d271-423c-a6cc-479c704bf3fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6012,7 +6012,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1cbf8c89-3ce6-4074-93f1-2d9ffd574a62")
+			(uuid "cf908a21-4e3d-43e9-af6e-500eb9fe8f27")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14042,10 +14042,10 @@
 	(footprint "ESP32-C6-WROOM-1:MOD28_ESP32-C6-WROOM-1_EXP"
 		(layer "F.Cu")
 		(uuid "be5df81d-6ac9-4c53-85b5-6970c9ed3d14")
-		(at 221.255 87.79)
+		(at 221.75 96.26)
 		(tags "ESP32-C6-WROOM-1-N8 ")
 		(property "Reference" "U4"
-			(at 0 0 0)
+			(at 0 -13.79 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6b0faf86-e3d6-4c7f-9b7d-4588f735ce64")
@@ -14353,7 +14353,7 @@
 			(uuid "50413b4b-4424-48c3-a3b6-884052d61b79")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 -13.79 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "7481ba01-8cb4-4561-9245-61b210147a42")
