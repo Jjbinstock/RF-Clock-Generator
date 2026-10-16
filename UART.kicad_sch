@@ -1605,28 +1605,6 @@
 			)
 		)
 	)
-	(global_label "3.3V"
-		(shape input)
-		(at 92.71 121.92 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "debe5d1a-21ef-4b30-a6fc-e367c0447e6b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.71 129.0176 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USB_D-"
 		(shape input)
 		(at 105.41 83.82 180)
@@ -2166,6 +2144,72 @@
 			(project ""
 				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46/a8385313-8f25-47fe-9062-948b5b923a5b"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 92.71 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7528838b-2f3c-4e1e-9e5c-9237b92467b4")
+		(property "Reference" "#PWR043"
+			(at 92.71 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 92.71 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2e4630d-d364-47d6-8159-b75e63f56848")
+		)
+		(instances
+			(project "RFclockgen"
+				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46/a8385313-8f25-47fe-9062-948b5b923a5b"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
