@@ -2135,6 +2135,10 @@
 		(at 154.94 86.36)
 		(uuid "b3368059-ff85-4f7a-9899-f699a76fc9a0")
 	)
+	(no_connect
+		(at 154.94 63.5)
+		(uuid "fa863804-44d0-4095-abd0-73dbc096d9dd")
+	)
 	(wire
 		(pts
 			(xy 129.54 109.22) (xy 129.54 113.03)
@@ -3197,16 +3201,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 63.5) (xy 167.64 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f965a1a7-5923-4e6c-94c0-3d0077084df1")
-	)
-	(wire
-		(pts
 			(xy 179.07 147.32) (xy 185.42 147.32)
 		)
 		(stroke
@@ -3254,28 +3248,6 @@
 			(type default)
 		)
 		(uuid "ffb0c69d-5692-40ed-80f2-327da5efc1ff")
-	)
-	(global_label "3.3V"
-		(shape input)
-		(at 137.16 44.45 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0b3845bb-9017-4e0e-a44b-7eeb12d10c7d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 37.3524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "TEMP"
 		(shape input)
@@ -3422,28 +3394,6 @@
 		(uuid "5fb3ad12-0e7d-4425-948a-f925beb5820b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 170.1414 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LD"
-		(shape input)
-		(at 167.64 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "60e9e1f9-f866-4abb-8673-54051a369a9b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.9233 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3761,28 +3711,6 @@
 			)
 		)
 	)
-	(global_label "3.3V"
-		(shape input)
-		(at 142.24 44.45 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d2a844fc-797d-4b8f-9fcc-bc15757ceff8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.24 37.3524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VREF"
 		(shape input)
 		(at 106.68 93.98 180)
@@ -4045,7 +3973,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22nF"
+		(property "Value" "47nF"
 			(at 251.46 104.1399 0)
 			(effects
 				(font
@@ -4925,6 +4853,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 142.24 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60646285-a096-4e3d-8e23-43f2f0c79813")
+		(property "Reference" "#PWR051"
+			(at 142.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 142.24 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 142.24 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73ed8444-e1f4-45ff-bf74-7b343021c940")
+		)
+		(instances
+			(project "RFclockgen"
+				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46/5eadf96c-4633-4d78-8a47-09b3347a9db0"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 245.11 54.61 0)
 		(unit 1)
@@ -5546,7 +5540,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15nF"
+		(property "Value" "2.7nF"
 			(at 237.49 105.4099 0)
 			(effects
 				(font
@@ -6016,7 +6010,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "390"
+		(property "Value" "360"
 			(at 250.19 111.7599 0)
 			(effects
 				(font
@@ -6900,7 +6894,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "1.2nF"
 			(at 266.7 105.4099 0)
 			(effects
 				(font
@@ -7384,6 +7378,72 @@
 			(project "RFclockgen"
 				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46/5eadf96c-4633-4d78-8a47-09b3347a9db0"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 137.16 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9c20653-1823-42bb-9708-2d5b7f9e8ed8")
+		(property "Reference" "#PWR050"
+			(at 137.16 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 137.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 137.16 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a466386f-adec-40ec-8ae2-af107266f6a0")
+		)
+		(instances
+			(project ""
+				(path "/e1444a2d-a0c4-493c-a136-c624dc084e46/5eadf96c-4633-4d78-8a47-09b3347a9db0"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
